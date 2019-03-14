@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+    
+body{
+  background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+  font-family: "Museo", sans-serif;
+ 
+}
+
+/*-----nav-----*/
+a{ 
+text-decoration: none;
+color: #696969}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#left {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+  margin: 12px;
+}
+
+#left a{
+	margin: 20px;
+}
+
+#right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#right img {
+		margin: 1px;
+		width: 30px;
+	border-radius: 20%;
+} 
+
+#login{
+	display: flex;
+	flex-direction: row;
+}
+#login p{
+	margin: 5px;
+}
+.icon{
+  width:25px;
+  padding:2px;
+  border-radius:5px;
+}
+
+/*-----nav-----*/
+
+
+/*-----card-----*/
+.slider{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	background:white;
+	margin: 50px 50px;
+	height:300px;
+  
+}
+.slidertext{
+	color:white;
+  font-size:36px;
+  position:absolute;
+  left:470px;
+  top:90px;
+}
+.leftarrow{
+  position:absolute;
+  display:flex;
+  justify-content:space-between;
+  height:70px;
+  width:50px;
+  top:160px;
+  left:-14px;
+  
+  
+}
+
+.work {
+  width: 100%;
+}
+.rightarrow{
+  position:absolute;
+  display:flex;
+  justify-content:space-between;
+  height:70px;
+  width:50px;
+  top:160px;
+  right:-14px;
+}
+.slider2{
+	background: black;
+	margin:-50px 50px 50px 50px;
+	height:50px;
+  opacity:0.5;
+}
+.slidertext2{
+	color:white;
+  padding: 10px;
+	display:flex;
+  justify-content:flex-end;
+}
+
+/*-----card-----*/
+
+
+h4{
+  text-align: center;
+  color: #636363;
+}
+
+
+
+/*-----Gallary-----*/
+.gallary{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px 0px 30px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.text{
+  margin: 25px 15px 0px 15px;
+  width: 900px;
+  height: 200px;
+  background: #4E4C4B;
+  color: white; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+/*-----Gallary-----*/
+
+
+.view{
+  display: flex;
+	justify-content: center;
+}
+.button {
+	text-decoration: none;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	color: white;
+	background-color: #666;
+	background-blend-mode: overlay;
+	padding: 10px 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+/*-----Footer-----*/
+
+.tweet{
+	display: flex;
+  height: 50px;
+  width: 100%;
+	color:white;
+	background-color: #484848;
+  justify-content: center;
+  align-items: center;
+	top: 275vh;
+}
+
+.footer-columns	{
+	display: flex;
+	flex-direction: row;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	color: white;
+	background-color: #666;
+	background-blend-mode: overlay;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	color: white;
+	flex-direction: column; 
+	height: 100%;
+	width:30%;
+	margin: 20px 20px 40px 20px; 
+}
+.column div{
+  display:flex;
+  flex-direction: row;
+}
+.footnav img{
+	align-self: center;
+}
+
+#footnav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#searchbar{
+	justify-content: flex-start;
+	align-items: center;
+	height: 30px;
+	background-color: white;
+	width:80%;
+	color:#696969;
+	padding: 5px;
+}
+
+.imgfoot {
+	margin: 5px 5px;
+	height: 90%;
+	width: 40%;
+	background-color: #696969;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white
+}
+#s-icon{
+	width:7%;
+	margin: 2px;
+}
+
+h5{ 
+color: #696969}
+
+
+
+.icondown {
+	width: 50px;
+	align-self: flex-start;
+}
+
+/*-----Footer-----*/
+
+
+
+
+
